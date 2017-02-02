@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:epub="http://www.idpf.org/2007/ops"
+      xml:lang="es" lang="es">
+    <head>
+        <meta charset="UTF-8" />
+		<title>Muestra</title>
+		<style>
+			body {margin:5em;}
+			p {padding-left:10em;}
+			
+			.item {marign-top:1em;padding-top:1em;border-top:5px solid lightgray;}
+			
+			.fisico, .digital {padding-left:1em;border-top:3px double lightgray}
+			.fisico > p, .digital > 	p {margin-left:3em;}
+			.fisico > p:first-child, .digital > p:first-child {margin-top:3em;}
+			
+			.fisico:before, .digital:before {position:absolute;left:7em;margin-top:1em;font-family:monospace;font-family:monospace;font-weigth:normal;font-style:normal;font-variant:normal;color:gray;}
+			.fisico > p:before, .digital > p:before {padding-left:2.5em;}
+			.fisico:before {content:"fisico:"}
+			.digital:before {content:"digital:"}
+			
+			.anverso, .reverso {padding-left:1em;border-top:1px solid lightgray}
+			.anverso > p, .reverso > 	p {margin-left:3em;}
+			.anverso > p:first-child, .reverso > p:first-child {margin-top:3em;}
+			
+			.anverso:before, .reverso:before {position:absolute;left:8em;margin-top:1em;font-family:monospace;font-family:monospace;font-weigth:normal;font-style:normal;font-variant:normal;color:gray;}
+			.anverso > p:before, .reverso > p:before {padding-left:3.5em;}
+			.anverso:before {content:"anverso:"}
+			.reverso:before {content:"reverso:"}
+			
+			.num_inventario:before, .autoria:before, .titulo:before, .lenguaje:before, .etiquetas:before, .fecha:before, .lugar:before, .soporte:before, .tecnica:before, .anchura_cm:before, .altura_cm:before, .estado:before, .localizacion:before, .notas:before, .nombre:before, .tamano_mb:before, .anchura_px:before, .altura_px:before, .url:before, .url_thumb:before {position:absolute;left:7em;font-family:monospace;font-family:monospace;font-weigth:normal;font-style:normal;font-variant:normal;color:gray;}
+			.num_inventario:before {content:"num_inventario:"}
+			.autoria:before {content:"autoria:"}
+			.titulo:before {content:"titulo:"}
+			.lenguaje:before {content:"lenguaje:"}
+			.etiquetas:before {content:"etiquetas:"}
+			.fecha:before {content:"fecha:"}
+			.lugar:before {content:"lugar:"}
+			.soporte:before {content:"soporte:"}
+			.tecnica:before {content:"tecnica:"}
+			.anchura_cm:before {content:"anchura_cm:"}
+			.altura_cm:before {content:"altura_cm:"}
+			.estado:before {content:"estado:"}
+			.localizacion:before {content:"localizacion:"}
+			.notas:before {content:"notas:"}
+			.nombre:before {content:"nombre:"}
+			.tamano_mb:before {content:"tamano_mb:"}
+			.anchura_px:before {content:"anchura_px:"}
+			.altura_px:before {content:"altura_px:"}
+			.url:before {content:"url:"}
+			.url_thumb:before {content:"url_thumb:"}
+			
+			.titulo {font-style:italic;}
+		</style>
+	</head>
+	<body>
+		<div id="elementos">
+			<div class="item" id ="_id">
+				<p class="num_inventario">1</p>
+				<p class="autoria">Gabriel Portillo del Toro</p>
+				<p class="titulo">Economía a la mexicana</p>
+				<p class="lenguaje">es</p>
+				<p class="etiquetas">economía, México, gobierno federal</p>
+				<div class="fisico">
+					<p class="fecha">s. f.</p>
+					<p class="lugar">Colima</p>
+					<p class="soporte">Papel</p>
+					<p class="tecnica">Carbón sobre papel</p>
+					<p class="anchura_cm">24.6</p>
+					<p class="altura_cm">37.6</p>
+					<p class="estado">Bueno</p>
+					<p class="localizacion">Familia Portillo del Toro</p>
+					<p class="notas">Averiguar fecha aproximada de creación.</p>
+				</div>
+				<div class="digital">
+					<p class="fecha">2016-05-08T12:00:00Z</p>
+					<p class="lugar">Colima</p>
+					<p class="tecnica">Escáner plano</p>
+					<div class="anverso">
+						<p class="nombre">A001-A.tif</p>
+						<p class="tamano_mb">18.44</p>
+						<p class="anchura_px">2480</p>
+						<p class="altura_px">3437</p>
+						<p class="url"><a target="_blank" href="https://github.com/ColectivoPerroTriste/GPT01/blob/master/Originales/A001-A.tif?raw=true">https://github.com/ColectivoPerroTriste/GPT01/blob/master/Originales/A001-A.tif?raw=true</a></p>	
+						<p class="url_thumb"><a target="_blank" href="thumbs/A001-A.jpg">thumbs/A001-A.jpg</a></p>	
+						<p class="notas">Espacio vacío en los bordes.</p>
+					</div>
+					<div class="reverso">
+						<p class="nombre">A001-R.tif</p>
+						<p class="tamano_mb">14.97</p>
+						<p class="anchura_px">2480</p>
+						<p class="altura_px">3437</p>
+						<p class="url"><a target="_blank" href="https://github.com/ColectivoPerroTriste/GPT01/blob/master/Originales/A001-R.tif?raw=true">https://github.com/ColectivoPerroTriste/GPT01/blob/master/Originales/A001-R.tif?raw=true</a></p>
+						<p class="url_thumb"><a target="_blank" href="thumbs/A001-R.jpg">thumbs/A001-R.jpg</a></p>	
+						<p class="notas">Espacio vacío en los bordes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

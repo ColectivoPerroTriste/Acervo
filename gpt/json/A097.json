@@ -1,0 +1,41 @@
+{
+    "num_inventario": 97,
+    "autoria": "Gabriel Portillo del Toro",
+    "titulo": "T",
+    "lenguaje": "es",
+    "etiquetas": "T, T",
+    "fisico": {
+        "fecha": "UTC",
+        "lugar": "Colima",
+        "tecnica": "T sobre papel",
+        "soporte": "Papel",
+        "anchura_cm": 0,
+        "altura_cm": 0,
+        "estado": "Bueno",
+        "localizacion": "Familia Portillo del Toro",
+        "notas": ""
+    },
+    "digital": {
+        "fecha": "2016-05-08T12:00:00Z",
+        "lugar": "Colima",
+        "tecnica": "Escáner plano",
+        "anverso": {
+            "nombre": "A097-A.tif",
+            "tamano_mb": 13.75,
+            "anchura_px": 2480,
+            "altura_px": 3437,
+            "url": "https://github.com/ColectivoPerroTriste/GPT04/blob/master/Originales/A097-A.tif?raw=true",
+            "url_thumb": "thumbs/A097-A.jpg",
+            "notas": ""
+        },
+        "reverso": {
+            "nombre": "A097-R.tif",
+            "tamano_mb": 12.12,
+            "anchura_px": 2480,
+            "altura_px": 3437,
+            "url": "https://github.com/ColectivoPerroTriste/GPT04/blob/master/Originales/A097-R.tif?raw=true",
+            "url_thumb": "thumbs/A097-R.jpg",
+            "notas": ""
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "num_inventario": 390,
+    "autoria": "Gabriel Portillo del Toro",
+    "titulo": "T",
+    "lenguaje": "es",
+    "etiquetas": "T, T",
+    "fisico": {
+        "fecha": "UTC",
+        "lugar": "Colima",
+        "tecnica": "T sobre papel",
+        "soporte": "Papel",
+        "anchura_cm": 0,
+        "altura_cm": 0,
+        "estado": "Bueno",
+        "localizacion": "Familia Portillo del Toro",
+        "notas": ""
+    },
+    "digital": {
+        "fecha": "2016-05-08T12:00:00Z",
+        "lugar": "Colima",
+        "tecnica": "Escáner plano",
+        "anverso": {
+            "nombre": "H390-A.tif",
+            "tamano_mb": 5.12,
+            "anchura_px": 2550,
+            "altura_px": 3507,
+            "url": "https://github.com/ColectivoPerroTriste/GPT16/blob/master/Originales/H390-A.tif?raw=true",
+            "url_thumb": "thumbs/H390-A.jpg",
+            "notas": ""
+        },
+        "reverso": {
+            "nombre": "H390-R.tif",
+            "tamano_mb": 3.33,
+            "anchura_px": 2550,
+            "altura_px": 3507,
+            "url": "https://github.com/ColectivoPerroTriste/GPT16/blob/master/Originales/H390-R.tif?raw=true",
+            "url_thumb": "thumbs/H390-R.jpg",
+            "notas": ""
+        }
+    }
+}
